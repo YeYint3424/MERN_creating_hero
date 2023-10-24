@@ -12,48 +12,19 @@
   background-color: rgba(70, 70, 70, 0.11);
 }
 .btn-curl{
+  width: auto;
   border-radius: 10px !important;
   padding: .2rem 1rem !important;
   
 }
+
 .navButton{
-  width: 15vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-/* .search-input{
-  padding: 2px .5rem !important;
-  border: none;
-  background: transparent !important;
-  border-top-left-radius: 10px !important;
-  border-bottom-left-radius: 10px !important;
-  color: white;
-  border-top: 1px solid rgb(255, 255, 255) !important;
-  border-left: 1px solid rgb(255, 255, 255) !important;
-  border-bottom: 1px solid rgb(255, 255, 255) !important;
-}
-.search-input:focus{
-  background: transparent !important;
-  border: 1px solid rgb(255, 255, 255) !important;
-  outline: none !important;
-}
-.btn-search{
-  background-color: transparent !important;
-  color: white;
-  padding: 2px .5rem !important;
-  border-top-right-radius: 10px !important;
-  border-bottom-right-radius: 10px !important;
-  border-top: 1px solid rgb(255, 255, 255) !important;
-  border-right: 1px solid rgb(255, 255, 255) !important;
-  border-bottom: 1px solid rgb(255, 255, 255) !important;
-}
-.search-group{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 .search-input {
+  width: 30vw !important;
   padding: 2px 0.5rem !important;
   border: none;
   background: transparent !important;
@@ -100,7 +71,7 @@
 .home-card{
   margin-left: 1%;
   margin-right: 1%;
-  width: 23% !important;
+  width: 98% !important;
   height: 65vh !important;
 }
 .card-all-bio{
@@ -108,4 +79,68 @@
 }
 .h-65{
   height: 65vh !important;
+}
+.see-more{
+  text-decoration: none;
+  color: white;
+}
+.see-more:hover{
+  text-decoration:2px solid #ccc underline;
+  color: #ccc;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+textarea.form-control {
+  resize: vertical; /* Allow vertical resizing for textareas */
+}
+
+/* Style the Submit button */
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.btn-primary:hover {
+  background-color: #217dbb;
+}
+
+.form-control:hover{
+  border: 2px solid rgb(0, 225, 255) !important;
+}
+.form-control:focus{
+  border: 2px solid rgb(0, 225, 255) !important;
+}
+.form-control{
+  border: 2px solid #ccc !important;
+  background-color: rgb(114, 114, 114) !important;
+  color: white !important;
+}
+label{
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #000000;
+}
+.btn-add{
+  border: none;
+  background: rgb(0, 225, 255) !important;
+  color: white !important;
+  text-shadow: 2px 2px 5px #000000;
+}
+.btn-add:hover{
+  background: rgb(12, 210, 236) !important;
+  color: whitesmoke !important;
 }

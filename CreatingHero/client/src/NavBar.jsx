@@ -23,7 +23,6 @@ const NavBar = () => {
           </div>
         </div>
         <div className="navButton">
-          <a href="/"><button className="btn btn-curl btn-secondary">Home</button></a>
           <a href="/create"><button className="btn btn-curl btn-secondary">Create</button></a>
         </div>
       </div>
