@@ -1,0 +1,111 @@
+.body{
+  margin: 0;
+  padding: 0 1rem;
+  background-color: #545454;
+  min-height: 100vh;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(70, 70, 70, 0.11);
+}
+.btn-curl{
+  border-radius: 10px !important;
+  padding: .2rem 1rem !important;
+  
+}
+.navButton{
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* .search-input{
+  padding: 2px .5rem !important;
+  border: none;
+  background: transparent !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  color: white;
+  border-top: 1px solid rgb(255, 255, 255) !important;
+  border-left: 1px solid rgb(255, 255, 255) !important;
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+}
+.search-input:focus{
+  background: transparent !important;
+  border: 1px solid rgb(255, 255, 255) !important;
+  outline: none !important;
+}
+.btn-search{
+  background-color: transparent !important;
+  color: white;
+  padding: 2px .5rem !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  border-top: 1px solid rgb(255, 255, 255) !important;
+  border-right: 1px solid rgb(255, 255, 255) !important;
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+}
+.search-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.search-input {
+  padding: 2px 0.5rem !important;
+  border: none;
+  background: transparent !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  color: white;
+  border: 1px solid white;
+}
+
+.search-input:hover{
+  background: transparent !important;
+  border: 1px solid rgb(0, 238, 255) !important;
+  outline: none !important;
+}
+.search-input:focus{
+  background: transparent !important;
+  border: 1px solid rgb(0, 238, 255) !important;
+  outline: none !important;
+}
+
+.btn-search {
+  background-color: transparent !important;
+  color: rgb(255, 255, 255);
+  padding: 2px 0.5rem !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  border: 1px solid white;
+}
+.btn-search:hover{
+  border: 1px solid rgb(0, 238, 255) !important;
+  color: rgb(0, 238, 255);
+}
+.btn-search:active{
+  background-color: rgb(0, 238, 255) !important;
+  color: white;
+}
+
+.search-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-card{
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 23% !important;
+  height: 65vh !important;
+}
+.card-all-bio{
+  height: 30vh !important;
+}
+.h-65{
+  height: 65vh !important;
+}
