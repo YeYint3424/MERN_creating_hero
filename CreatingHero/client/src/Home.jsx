@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
@@ -28,9 +29,9 @@ const Home = () => {
           </div>
         </div>
         <div className="d-flex align-items-center justify-content-center">
-          <a href="/all-biography" className="see-more mt-1">
+          <Link to="/all-biography" className="see-more mt-1">
             <h4>See More...</h4>
-          </a>
+          </Link>
         </div>
       </div>
     </>

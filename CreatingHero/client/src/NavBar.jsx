@@ -1,12 +1,19 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-
+import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <>
       <div className="navBar">
         <div className="navLogo">
-          <a href="/"><img src="/book_logo.png" alt="book_logo..." width={50} height={50} /></a>
+          <Link to="/">
+            <img
+              src="/book_logo.png"
+              alt="book_logo..."
+              width={50}
+              height={50}
+            />
+          </Link>
         </div>
         <div>
           <div className="search-group">
@@ -23,7 +30,9 @@ const NavBar = () => {
           </div>
         </div>
         <div className="navButton">
-          <a href="/create"><button className="btn btn-curl btn-secondary">Create</button></a>
+          <Link to="/create">
+            <button className="btn btn-curl btn-secondary">Create</button>
+          </Link>
         </div>
       </div>
     </>
