@@ -20,21 +20,25 @@ function Detail() {
   return (
     <div className="container-fluid">
       <div className="detail">
-        <div className="detail-head">
-          <h3>Name : {character.name}</h3>
-          <img src={character.photo} alt={character.name + "'s photo"} className="detail-img" />
+        <div className="row">
+          <h3 className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">Name : {character.name}</h3>
+          <div className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+          <img
+            src={character.photo}
+            alt={character.name + "'s photo"}
+            className="detail-img"
+          /></div>
         </div>
         <div className="detail-p mt-3">
-            <p>{character.bio}</p>
+          <p>{character.bio}</p>
         </div>
 
-        <div className="detail-head">
-            <Link to={`/update/${character._id}`}>
+        <div className="detail-btn">
+          <Link to={`/update/${character._id}`}>
             <button className="btn btn-warning">Edit</button>
-            </Link>
-            <button className="btn btn-danger">Delete</button>
+          </Link>
+          <button className="btn btn-danger">Delete</button>
         </div>
-
       </div>
     </div>
   );

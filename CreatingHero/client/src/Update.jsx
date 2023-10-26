@@ -20,37 +20,40 @@ const Update = () => {
     <div className="container-fluid">
       <div className="detail">
         <form action="">
-          <div className="detail-head">
-            <h3>
+          <div className="row">
+            <h3 className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
               Name :{" "}
               <input
                 type="text"
                 value={character.name}
                 className="update-input"
+                name="name"
               />
             </h3>
-            <div>
+            <div className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
               <img
                 src={character.photo}
                 alt={character.name + "'s photo"}
                 className="detail-img"
               />
-              <h5 className="mt-3">
+              
+            </div>
+            <h5 className="mt-3 photo-input">
                 Photo Link :{" "}
                 <input
                   type="text"
                   value={character.photo}
                   className="update-input"
+                  name="photo"
                 />
               </h5>
-            </div>
           </div>
           <div className="detail-p mt-3">
-            <textarea className="p-area" value={character.bio}></textarea>
+            <textarea className="p-area" name='bio' value={character.bio}></textarea>
           </div>
 
           <div className="d-flex align-items-center justify-content-center">
-            <button className="btn btn-success">Update</button>
+            <button type="submit" className="btn btn-success">Update</button>
           </div>
         </form>
       </div>
