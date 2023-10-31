@@ -78,14 +78,24 @@
   border: none !important;
   height: 35vh !important;
 }
+.card-home-bio{
+  border: none !important;
+  height: 70vh !important;
+}
 .card-all-bio-body{
   border: none !important;
   height: 30vh !important;
 }
+.card-home-bio-body{
+  border: none !important;
+  height: 60vh !important;
+}
 .img-all-bio{
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+  object-fit: cover;
 }
+
 .card-all-bio-footer{
   background-color: #ccc !important;
   border: none !important;
@@ -93,6 +103,14 @@
   align-items: center;
   justify-content: center;
   height:5vh !important;
+}
+.card-home-bio-footer{
+  background-color: #ccc !important;
+  border: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:10vh !important;
 }
 .h-65{
   height: 65vh !important;
@@ -203,4 +221,81 @@ label{
   display: flex;
   align-items: center;
   justify-content: right;
+}
+
+/* CSS for Pagination Container */
+.pagination-Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  height: 40px;
+}
+.pagination-Btn a{
+  text-decoration: none;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #ccc !important;
+  cursor: pointer;
+}
+.pagination-Btn a:hover{
+  color: #000000 !important;
+  background-color: #ccc;
+}
+.paginationActive a{
+  color: #000000 !important;
+  background-color: #ccc !important;
+}
+.search-item{
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  left: 0;
+}
+.search-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.search-ul{
+  padding: 1rem;
+  z-index: 999;
+  background-color: #444444;
+  list-style: none;
+  color: white;
+  border-radius: 4px;
+
+}
+.search-li:hover{
+  color: rgb(0, 0, 0) !important;
+}
+.search-li{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.li-img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+ul a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 4px;
+  background-color: #545454;
+  border-radius: 4px;
+  width: 100%;
+  padding: .5rem;
+}
+ul a:hover{
+  color: black;
+  background-color: #ccc;
 }
